@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:tag=".keyboard-body-area" android:background="@color/google_white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:allowMockActionDown="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:background="@drawable/fast_access_bar_border" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/fast_access_bar_introduction_view_stub" android:layout="@layout/fast_access_bar_introduction" android:layout_width="fill_parent" android:layout_height="@dimen/fast_access_bar_introduction_height" app:layout_constraintBottom_toTopOf="@id/fast_access_bar_view_holder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <android.support.constraint.ConstraintLayout android:id="@id/fast_access_bar_view_holder" android:layout_width="fill_parent" android:layout_height="@dimen/fast_access_bar_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/fast_access_bar_introduction">
+            <com.google.android.apps.inputmethod.libs.search.widget.BidiFixedColumnEmojiSoftKeyViewsPage android:id="@id/fast_access_bar_emoji_holder_view" android:layout_width="fill_parent" android:layout_height="fill_parent" column_count="@integer/fast_access_bar_column_count" horizontal_alignment="true" row_count="1" softkeyview_layout="@layout/fast_access_bar_softkeyview" />
+            <include layout="@layout/fast_access_bar_settings" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

@@ -1,0 +1,43 @@
+.class final synthetic Ldbt;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lnxh;
+
+
+# static fields
+.field static final a:Lnxh;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Ldbt;
+
+    invoke-direct {v0}, Ldbt;-><init>()V
+
+    sput-object v0, Ldbt;->a:Lnxh;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    new-instance v0, Ldcf;
+
+    invoke-direct {v0, p1}, Ldcf;-><init>(Ljava/lang/Object;)V
+
+    return-object v0
+.end method

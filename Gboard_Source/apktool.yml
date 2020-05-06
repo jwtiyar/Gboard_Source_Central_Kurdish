@@ -1,0 +1,112 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.google.android.inputmethod.latin_9.3.12.308268050-release-armeabi-v7a-26931225_minAPI21(armeabi-v7a)(nodpi)_apkmirror.com.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- META-INF/services/com.fasterxml.jackson.core.JsonFactory
+- META-INF/services/com.google.android.libraries.inputmethod.module.IModuleProvider
+- META-INF/services/com.google.protobuf.GeneratedExtensionRegistryLoader
+- assets/avatar_creation_capture_transition.json
+- assets/avatar_creation_loading_animation.json
+- assets/avatar_creation_preview_background.json
+- assets/emoji_search_en_us.zip
+- gif
+- assets/theme/style_sheet_color_deep_purple_override.binarypb
+- assets/theme/style_sheet_default_sw400.binarypb
+- assets/theme/style_sheet_default_sw600.binarypb
+- assets/theme/style_sheet_default_sw768.binarypb
+- assets/theme/style_sheet_google_blue_dark_border.binarypb
+- assets/theme/style_sheet_google_blue_light_border.binarypb
+- assets/theme/theme_package_metadata_no_background.binarypb
+- res/-1O.webp
+- png
+- res/-GH.webp
+- res/-eO.webp
+- res/-rQ.webp
+- res/0gC.webp
+- res/1Fy.webp
+- res/2n_.webp
+- res/36t.webp
+- res/3PC.webp
+- res/548.webp
+- res/7uw.webp
+- res/84E.webp
+- res/B4j.webp
+- res/Bt4.webp
+- res/ChG.webp
+- res/ClC.webp
+- res/CuY.webp
+- res/FdI.webp
+- res/GV-.json
+- res/HDS.webp
+- res/HIL.webp
+- res/HMl.webp
+- res/Hnz.webp
+- res/IrA.webp
+- res/JXV.webp
+- res/K7w.webp
+- res/KyN.webp
+- res/PxR.dict
+- res/RlO.webp
+- res/S-m.webp
+- res/U6P.webp
+- res/Uht.webp
+- res/VKS.webp
+- res/Vbr.webp
+- res/VrR.webp
+- res/WLH.webp
+- res/Wbu.webp
+- res/X0a.webp
+- res/XMV.webp
+- res/XyT.webp
+- res/Y0M.webp
+- res/Yyz.webp
+- res/_K2.webp
+- jpg
+- res/bSV.webp
+- res/bYp.webp
+- res/b_h.webp
+- res/ck_.webp
+- res/efU.webp
+- res/fjC.webp
+- res/g6T.webp
+- res/gGs.webp
+- res/kk1.webp
+- res/lrk.webp
+- res/niu.webp
+- res/pOG.webp
+- res/pp2.webp
+- res/rlB.webp
+- res/sKo.webp
+- wav
+- res/tTG.webp
+- res/uPc.webp
+- res/uYL.webp
+- res/v4n.webp
+- res/vV2.webp
+- res/wjs.webp
+- res/zI3.webp
+- res/zOE.webp
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  LICENSE_OFL: '0'
+  LICENSE_UNICODE: '0'
+  com/google/android/libraries/micore/learning/testing/grpctestchannel/CAcert.pem: '0'
+  com/google/api/client/repackaged/org/apache/commons/codec/language/dmrules.txt: '0'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '26931225'
+  versionName: 9.3.12.308268050-release-armeabi-v7a

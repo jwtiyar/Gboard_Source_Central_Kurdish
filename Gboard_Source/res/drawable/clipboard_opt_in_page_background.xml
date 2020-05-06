@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/clip_item_content_background_position_start" android:top="@dimen/clip_item_content_background_position_top" android:right="@dimen/clip_item_content_background_position_end" android:bottom="@dimen/clip_item_content_background_position_bottom">
+        <shape>
+            <solid android:color="@android:color/white" />
+            <corners android:radius="@dimen/item_checker_background_corner_radius" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping key_id="@id/softkey_close_extension_g_icon_no_theme" view_id="@id/key_pos_header_search" />
+        <mapping key_id="@id/softkey_clear_and_open_search_no_theme" view_id="@id/key_pos_header_cancel_input" />
+    </key_mapping>
+    <key_mapping state="EDITOR_EMPTY">
+        <mapping key_id="@id/softkey_empty" view_id="@id/key_pos_header_cancel_input" />
+    </key_mapping>
+</framework>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/clip_item" style="@style/ClipItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/clip_item_content_text" style="@style/ClipItemContentTextWrapper">
+        <FrameLayout android:id="@id/clip_item_icon_wrapper" style="@style/ClipItemIconWrapper">
+            <ImageView android:id="@id/clip_item_icon" style="@style/ClipItemIcon" />
+        </FrameLayout>
+        <com.google.android.libraries.inputmethod.widgets.TransformationTextView android:id="@id/clip_item_content" android:layout_toEndOf="@id/clip_item_icon_wrapper" style="@style/ClipItemContentText" />
+    </RelativeLayout>
+    <android.support.constraint.ConstraintLayout android:id="@id/clip_item_content_image_wrapper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/clip_item_content_image" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/ClipItemContentImage" />
+        <ImageView android:id="@id/clip_item_content_image_square" app:layout_constraintDimensionRatio="1:1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/ClipItemContentSquareImage" />
+    </android.support.constraint.ConstraintLayout>
+    <FrameLayout android:id="@id/clip_item_content_checker_layout" style="@style/ClipItemCheckerLayout">
+        <CheckBox android:id="@id/clip_item_content_checker" style="@style/ClipItemContentChecker" />
+    </FrameLayout>
+</FrameLayout>

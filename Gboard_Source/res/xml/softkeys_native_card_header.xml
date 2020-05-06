@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey content_description="@string/gboard_close_extension_and_back_to_letter_keyboard_desc" id="@id/softkey_close_extension_g_icon_no_theme" layout="@layout/softkey_icon_no_theme">
+            <action data="prime" keycode="CLOSE_EXTENSION" type="PRESS" />
+            <icon location="@id/icon" value="@drawable/ic_google_search_trim" />
+        </softkey>
+        <softkey content_description="@string/gboard_close_extension_and_back_to_letter_keyboard_desc" id="@id/softkey_close_extension_back_arrow_no_theme_m2" layout="@layout/softkey_icon_no_theme">
+            <action data="prime" keycode="CLOSE_EXTENSION" type="PRESS" />
+            <icon location="@id/icon" value="@drawable/quantum_ic_search_grey600_24" />
+        </softkey>
+        <softkey content_description="@string/gboard_gif_search_content_desc" id="@id/softkey_open_search_keyboard" layout="@layout/softkey_icon_no_theme">
+            <action data="com.google.android.apps.inputmethod.libs.expression.extension.INativeCardExtension" keycode="OPEN_EXTENSION_INTERNAL" type="PRESS" />
+            <icon location="@id/icon" value="@drawable/ic_google_search_trim" />
+        </softkey>
+        <softkey content_description="@string/gboard_cancel_query_content_desc" id="@id/softkey_clear_and_open_search_no_theme" layout="@layout/softkey_icon_no_theme_with_padding">
+            <action data="com.google.android.apps.inputmethod.libs.expression.extension.INativeCardExtension" keycode="OPEN_EXTENSION_AND_CLEAR_QUERY" type="PRESS" />
+            <icon location="@id/icon" value="@drawable/quantum_ic_cancel_black_24" />
+        </softkey>
+    </softkeys>
+</framework>

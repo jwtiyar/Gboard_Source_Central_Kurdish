@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout style="@style/ChipsView">
+        <include layout="@layout/chip_item_background" />
+        <ImageView android:id="@id/clipboard_chip_item_paste_icon" android:tag=".icon.clipboard-auto-paste-suggestion" android:tint="@color/clipboard_blue" android:contentDescription="@string/item_board_paste_button_content_desc" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/clipboard_chip_item_text" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ChipsIcon" />
+        <com.google.android.libraries.inputmethod.widgets.TransformationTextView android:id="@id/clipboard_chip_item_text" android:tag=".label.for-candidate-key" android:layout_marginStart="@dimen/clipboard_chips_padding_start" android:layout_marginEnd="@dimen/clipboard_chips_text_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/clipboard_chip_item_paste_icon" app:layout_constraintTop_toTopOf="parent" style="@style/ChipsText" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_marginTop="@dimen/gif_recent_suggestion_text_vertical_margin" android:layout_marginBottom="@dimen/gif_recent_suggestion_text_vertical_margin" android:text="@string/gif_recent_tab_suggest_text" android:drawablePadding="@dimen/gif_recent_suggestion_icon_padding" android:drawableStart="@drawable/quantum_gm_ic_star_black_24" style="@style/RecentTabText" />
+    <com.google.android.apps.inputmethod.libs.search.widget.AnimatedImageSidebarHolderView android:id="@id/suggestion_animated_view_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" image_view_layout="@layout/animated_image_view" />
+    <TextView android:layout_marginTop="@dimen/gif_recent_suggestion_recent_text_top_margin" android:text="@string/gif_recent_tab_recent_text" style="@style/RecentTabText" />
+</LinearLayout>

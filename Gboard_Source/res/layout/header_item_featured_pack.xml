@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/StickerRevampHeaderContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/feature_border" android:background="@drawable/header_item_featured_pack_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/sticker_pack_icon" style="@style/StickerRevampHeaderImage" />
+    </FrameLayout>
+    <View android:id="@id/feature_badge" android:background="@drawable/header_item_featured_pack_badge" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsClippableHolderView android:id="@id/proactive_suggestion_clippable_holder" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.CopyImageView android:id="@id/proactive_suggestion_overlay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:copySource="@id/copy_src" />
+    <HorizontalScrollView android:layout_gravity="center_horizontal" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/proactive_suggestion_holder" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+</com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsClippableHolderView>

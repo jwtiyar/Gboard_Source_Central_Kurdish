@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="animator" name="APKTOOL_DUMMY_8">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_1a">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_1b">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_1e">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_20">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_22">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_26">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_27">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_28">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_2d">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_2e">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_2f">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_30">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_31">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_36">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_37">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_38">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_40">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_41">false</item>
+    <item type="animator" name="APKTOOL_DUMMY_42">false</item>
+</resources>

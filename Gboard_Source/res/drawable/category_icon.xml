@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/gif_contextual_promo_header_icon_size" android:width="@dimen/gif_contextual_promo_header_icon_size" android:drawable="@drawable/quantum_gm_ic_star_grey600_24" />
+</layer-list>

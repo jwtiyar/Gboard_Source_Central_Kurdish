@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/clipboard_body_off_overlay_view" style="@style/OffOverlayView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/off_overlay_title" android:text="@string/clipboard_off_overlay_title" app:layout_constraintBottom_toTopOf="@id/off_overlay_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/OffOverlayTitle" />
+    <TextView android:id="@id/off_overlay_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/off_overlay_title" style="@style/OffOverlayContent" />
+</android.support.constraint.ConstraintLayout>
